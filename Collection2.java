@@ -3,8 +3,8 @@
       ArrayList is backed by a dynamic array, while LinkedList is backed by a doubly-linked list.
       *but in code, no difference is there in how you use them*
       ArrayList provides fast random access, while LinkedList provides fast insertion and deletion at both ends
-    //   🔸 List is an interface,
-         🔸 LinkedList is the class you're using to implement it.
+    //    List is an interface,
+          LinkedList is the class you're using to implement it.
       
 */
 import java.util.List;
