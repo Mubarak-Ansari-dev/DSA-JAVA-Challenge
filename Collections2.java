@@ -10,7 +10,7 @@
 import java.util.List;
 import java.util.LinkedList;
 
-public class Collection2 {
+public class Collections2 {
     public static void main(String[] args) {
         // LinkedList
         LinkedList<String> names = new LinkedList<>();
