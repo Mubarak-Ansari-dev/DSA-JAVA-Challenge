@@ -1,0 +1,119 @@
+
+ # 📘 DSA in Java – Lecture 1 Notes (100 Lines)
+
+🧠 These notes are from **Lecture 1** of the **DSA Java Series** (Live Cohort by ChaiCode).
+
+🎯 Designed to help **beginners and intermediate learners**:
+- Understand Java basics step-by-step
+- Jo lecture me padhaya gya h uska notes
+
+
+
+-- INTRODUCTION TO DSA --
+
+
+To store data (information), we need data structure, and structure varies based on requirements.
+Example - Water (i.e, data / information)
+For guest -> Glass
+For bath -> Bucket
+👉 Here Glass and Bucket is structure.
+
+To perform an operation / approach, we require Algorithm, more specifically - set of instruction to perform a specific task.
+Example - Chai (Water, Tea, Sugar, Milk), all these are data
+Water - bowl,
+Tea, Sugar - container
+Milk - bowl
+Approach varies by person like one may add milk first and other person may add all ingredients at once.
+
+Time complexity is the method to compare different approaches for a single program.
+
+
+
+--- COLLECTIONS IN JAVA ----
+A framework that provides various interface
+List, Set, and Queue
+
+Interface - Provide overview of class, we can't create object of Interface
+class 'Additional_Notes' implements OVERVIEW -> here OVERVIEW is an interface
+
+LIST - When we want to store items one by one, repetition allowed
+- ArrayList
+- LinkedList
+- Stack
+
+SET - Elements are placed by hashing function, repetition not allowed, order of insertion not preserved
+- HashSet
+- LinkedHashSet
+- TreeSet (Sorted)
+
+QUEUE - FIFO (First in, first out)
+- ArrayQueue
+- LinkedList
+- PriorityQueue (max. heap and min. head) - data is stored based on priority
+
+MAP (Key - Value pair), key is unique but value can repeat
+- HashMap
+- TreeMap (Sorted)
+
+* In List, Set, Queue - data are stored in value, various in Maps data are stored in Key - Value pair
+
+
+
+-- EXTRA --
+
+LIST
+ArrayList → Backed by dynamic array
+📌 Best when: frequent get, less frequent insert/delete
+🧠 Used in: Sliding Window, Two Pointers, Adjacency Lists (Graph)
+
+LinkedList → Doubly linked list
+📌 Best when: frequent insert/delete at head/tail
+🧠 Used in: LRU Cache, Palindrome Linked List
+
+Stack (extends Vector) → LIFO
+📌 Best when: reversal, backtracking
+🧠 Used in: Balanced Parentheses, DFS, Undo operation
+
+SET
+HashSet → Backed by hash table
+📌 Best for: O(1) lookup of unique elements
+🧠 Used in: Two Sum, Duplicate detection, Sliding Window (unique chars)
+
+TreeSet → Red-Black Tree (Self-Balancing BST)
+📌 Best when: you need sorted access
+🧠 Used in: Range queries, Floor/Ceil problems
+
+QUEUE
+Queue (LinkedList / ArrayDeque) → FIFO
+📌 Best for: level-order traversal, scheduling
+🧠 Used in: BFS, Task Scheduling
+
+PriorityQueue → Min/Max Heap
+📌 Best when: top K elements, greedy algorithms
+🧠 Used in: Dijkstra’s, Median of Stream, Merge K Sorted Lists
+
+MAP
+HashMap → Key-value with O(1) access
+📌 Best for: frequency maps, look ups
+🧠 Used in: Two Sum, Anagrams, Caching
+
+TreeMap → Sorted key-value pairs
+📌 Best when: ordered map needed
+🧠 Used in: Interval trees, Range queries
+
+
+
+--- HASHING FUNCTION ---
+A hashing function takes an input (like a string or number) and converts it into a fixed-size integer
+called a hash code.
+
+Used in:
+HashSet → to store unique values
+
+HashMap → to store and access key-value pairs
+
+⚙️ How it works:-
+Java calls the object’s .hashCode() method.
+The hash code is used to decide which bucket (index) to place the data.
+If two elements have the same hash code (collision), Java uses .equals() to resolve it.
+Hashing allows for incredibly fast look ups, insertions, and deletions, typically in constant time, or O(1) on average.
