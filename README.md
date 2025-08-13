@@ -1,67 +1,72 @@
-Java DSA Challenge — Live Cohort 🚀
-A 90-Day Journey to Master Data Structures & Algorithms in Java
-Structured. Consistent. Job-Focused.
-🌱🕊️🌧️😊
+# **Java DSA Challenge — Live Cohort 🚀**
+*A 90-Day Journey to Master Data Structures & Algorithms in Java*  
+**Structured. Consistent. Job-Focused.** 🌱☕💭😊
 
-📌 About This Repository
-This repository contains all my code, notes, and challenges from the Java DSA Live Cohort.
-The goal: Build problem-solving skills, strengthen Java fundamentals, and crack top tech interviews.
+---
 
-🗂 Folder Structure
+## 📌 About This Repository
+This repository contains all my code, notes, and challenges from the **Java DSA Live Cohort**.  
+**Goal:** Build problem-solving skills, strengthen Java fundamentals, and crack top tech interviews.
 
+---
+
+## 📂 Folder Structure
 DSA-JAVA-Challenge/
 │
-├── Lecture-1/        # Basics, Collections
-├── Lecture-2/        # Collections Framework
-├── Lecture-3/        # Recursion & Time Complexity
-├── CodingChallenges/ # Practice problems & contests
-└── README.md         # You are here
+├── CodingChallenges/   # Practice problems & contests
+├── Lecture-1/           # Java basics, first programs, collections intro
+├── Lecture-2/           # Collections Framework
+├── Lecture-3/           # Recursion & Time Complexity
+└── README.md            # Project description (this file)
 
-📅 Progress Tracker
 
-Day	Topic Covered	Status
-1	Java Setup, Collections Framework	✅
-2	Time Complexity	✅
-3	Recursion Basics	✅
-...	Coming soon...	⏳
+---
 
-🛠 Tech Stack
+## 📅 Progress Tracker
+| Day | Topic Covered           | Status |
+|-----|------------------------|--------|
+| 1   | Java Setup, Collections | ✅ |
+| 2   | Time Complexity         | ✅ |
+| 3   | Recursion Basics        | ✅ |
+| ... | Coming soon...          | ⏳ |
 
-Language: Java ☕
+---
 
-Editor: VS Code / IntelliJ IDEA
+## 🛠 Tech Stack
+- **Language:** Java ☕  
+- **Editor:** VS Code / IntelliJ IDEA  
+- **Version Control:** Git & GitHub  
+- **Platform:** Windows 11  
 
-Version Control: Git & GitHub
+---
 
-Platform: Windows 11
+## 🎯 Learning Goals
+- ✅ Master **Java fundamentals** (OOP, Collections, Exception Handling)
+- ✅ Learn **DSA from scratch** with real-world examples
+- ✅ Solve **300+ coding problems**
+- ✅ Understand **Time & Space Complexity**
+- ✅ Be **interview-ready** for top companies
 
-🎯 Learning Goals
-✅ Master Java fundamentals (OOP, Collections, Exception Handling)
+---
 
-✅ Learn DSA from scratch with real-world examples
+## 🚀 How to Use
+1. Clone the repository:
 
-✅ Solve 300+ coding problems
+   git clone https://github.com/Mubarak-Ansari-dev/DSA-JAVA-Challenge.git
 
-✅ Understand Time & Space Complexity
+2.Open in your favorite IDE (VS Code / IntelliJ)
 
-✅ Be interview-ready for top companies
+3.Navigate to the lecture folder and run the Java files
 
-🚀 How to Use
-Clone the repository
-
-git clone https://github.com/Mubarak-Ansari-dev/DSA-JAVA-Challenge.git
-
-Open in your favorite IDE (VS Code / IntelliJ)
-
-Navigate to the lecture folder and run the Java files
-
+```
 🏆 Milestones
-Week 1: Java Collections Framework ✅
+Week 1: Java First Program, Collections ✅
 
 Week 2: Recursion & Time Complexity ✅
 
 Week 3+: Arrays, Strings, Sorting, Searching 🔜
 
+```
 💡 Why This Repo Exists
 This is my accountability journal for learning Java DSA consistently.
 I believe discipline + consistency + real practice = success.
@@ -70,3 +75,4 @@ I believe discipline + consistency + real practice = success.
 
 
 🔥 "Every big journey starts with a single commit."
+
