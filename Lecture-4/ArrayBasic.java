@@ -52,6 +52,9 @@ public class ArrayBasic {
     2.Search Insert Position/Search element in Sorted Array
     3.Merge Sorted Array
     4.Plus One(66) etc...
+    Problem Solved- Power of Two
+                    Poer of Four
+                    Find the K-th Character in String Game 1
     * 
     */
                          // ++++Some Points++++
@@ -61,3 +64,8 @@ public class ArrayBasic {
     //  →For example, the array [3, 3, 2, 1, 1] is in non-increasing order because it does not increase at any point.
     // 🌱 An array can be both non-increasing and non-decreasing if it contains the same element repeated multiple times.
     //  → Non-increasing & Non-decreasing order- [2, 2, 2, 2, 2] is in non-increasing & non-decreasing order because it remains constant.
+
+
+
+    //  Jazakallh khair for reading the code.
+    
