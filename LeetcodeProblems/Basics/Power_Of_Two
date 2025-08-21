@@ -1,0 +1,58 @@
+
+231. Power of Two 
+Solution:-
+
+class Solution {
+    public boolean isPowerOfTwo(double n) {
+        if(n==1)
+         return true;
+        else if(n<1)
+         return false;
+         else
+          return isPowerOfTwo(n/2.0); 
+        
+    }
+}
+
+
+// Leetcode Problem- Power of Two
+// Example 1:
+// Input: n = 16    
+// Output: true
+// Example 2:   
+// Input: n = 5
+// Output: false
+// Example 3:
+// Input: n = 1
+// Output: true
+/*
+ *  Here the function checks if the number n is a power of two by recursively dividing it by 2 until it reaches 1 or less than 1. 
+    If it reaches 1, it returns true, indicating that n is a power of two. If it goes below 1, it returns false.
+  Explanation:
+ * 1. The function checks if n is equal to 1, in which case it returns true, indicating that 1 is a power of two.
+ * 2. If n is less than 1, it returns false, indicating that numbers less than 1 cannot be powers of two.
+ * 3. If n is greater than 1, it recursively calls itself with n divided by 2. This continues until n is reduced to 1 or less than 1.
+ * code-
+class Solution {
+    public boolean isPowerOfTwo(double n) {
+        if(n == 1)
+            return true;
+        else if(n < 1)
+            return false;
+        else
+            return isPowerOfTwo(n / 2.0);
+    }
+}
+// This is a recursive function that checks if a number is a power of two.
+
+ */
+
+
+
+
+
+
+
+
+
+
