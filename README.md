@@ -64,7 +64,11 @@ Week 1: Java First Program, Collections ✅
 
 Week 2: Recursion & Time Complexity ✅
 
-Week 3+: Arrays, Strings, Sorting, Searching 🔜
+Week 3+: Arrays
+
+Week 4: Linked List & Stack
+
+Week 5: Stack & Queue
 
 ```
 💡 Why This Repo Exists
