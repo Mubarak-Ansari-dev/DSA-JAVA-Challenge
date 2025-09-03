@@ -1,0 +1,30 @@
+Maximum consecutive one’s (or zeros) in a binary array
+
+class Solution {
+    public int maxConsecBits(int[] arr) {
+        // code here
+        int n = arr.length;
+        // to store maximum count result
+        int maxi = 0;
+        // to store current count
+        int count = 1;
+        for(int i=1; i<n; i++){
+            // if the current element is same as previous, increase count
+            if(arr[i] == arr[i-1]){
+              count++;
+              maxi = Math.max(maxi, count);
+              
+            }
+            else
+            
+             count = 1;
+        }
+       maxi= Math.max(maxi, count);
+        return maxi;
+    }
+}
+// here we are using count variable to store the count of consecutive 1's or 0's
+// and maxi variable to store the maximum count of consecutive 1's or 0's
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
