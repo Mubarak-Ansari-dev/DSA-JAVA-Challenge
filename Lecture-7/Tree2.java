@@ -13,5 +13,51 @@
  * 
  */ 
 
-//  Inorder Traversal Implementation:
-import java.util.*; 
+//  Preorder Traversal
+import java.util.LinkedList;
+import java.util.Queue;
+    void preorder(Node root){
+        if(root != null){
+            System.out.println(root.data);
+            preorder(root.left);
+            preorder(root.right);
+        }
+    }
+// Inorder Traversal
+   void Inorder(Node root){
+      if(root != null){
+          Inorder(root.left);
+          System.out.println(root.data);
+           Inorder(root.right);
+      }
+   }
+
+// Postorder Traversal
+   void postorder(Node root){
+    if(root != null){
+        [postorder(root.left);
+        postorder(root.right);
+        System.out.println(root.data);]
+    }
+   }
+
+//    BSF Or Level order Traversal
+    void Levelorder(Node root){
+        if(root == null);
+        return;
+        Queue<Node> q = new LinkedList<Node>(); // it is an interface that is why we cannot create its object directly.here we are using Queue data structure to store the nodes
+        q.add(root);
+        //  while queue is not empty
+        while(!q.isEmpty()){
+            Node temp = q.poll(); // it removes the head of the queue and returns it 
+            System.out.println(temp.data);
+            if(temp.left != null){ // if left child is not null then add it to the queue
+                q.add(temp.left);  
+            }
+            if(temp.right != null){ // if right child is not null then add it to the queue
+                q.add(temp.right);
+            }
+        }
+
+    }
+
