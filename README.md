@@ -22,13 +22,26 @@ DSA-JAVA-Challenge/
 
 ---
 
-## 📅 Progress Tracker
-| Day | Topic Covered           | Status |
-|-----|------------------------|--------|
-| 1   | Java Setup, Collections | ✅ |
-| 2   | Time Complexity         | ✅ |
-| 3   | Recursion Basics        | ✅ |
-| ... | Coming soon...          | ⏳ |
+## 📊 Progress Tracker  
+
+| Day  | Topic Covered                          | Status      |
+|------|----------------------------------------|-------------|
+| 1    | Java Setup, Collections                | ✅ Completed |
+| 2    | Time Complexity                        | ✅ Completed |
+| 3    | Recursion Basics                       | ✅ Completed |
+| 4    | Arrays (1D & 2D)                       | ✅ Completed |
+| 5    | Linked List (SLL, DLL, CLL)            | ✅ Completed |
+| 6    | Stack & Queue                          | ✅ Completed |
+| 7    | Trees (Binary Tree, Traversals)        | ✅ Completed |
+| 8    | Graphs (BFS, DFS, Problems)            | ✅ Completed |
+| ...  | **Data Structures Completed 🎉**        | 🏁 Milestone |
+| 9    | Algorithms – Recursion Deep Dive       | ⏳ Ongoing   |
+| 10   | Sorting Algorithms (Merge, Quick etc.) | ⏳ Upcoming  |
+| 11   | Searching Techniques                   | ⏳ Upcoming  |
+| 12   | Backtracking                           | ⏳ Upcoming  |
+| 13   | Greedy Algorithms                      | ⏳ Upcoming  |
+| 14   | Dynamic Programming                    | ⏳ Upcoming  |
+| ...  | More to come...                        | ⌛ Stay tuned|
 
 ---
 
