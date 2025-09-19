@@ -13,11 +13,19 @@ This repository contains all my code, notes, and challenges from the **Java DSA 
 ## 📂 Folder Structure
 DSA-JAVA-Challenge/
 │
-├── CodingChallenges/   # Practice problems & contests
-├── Lecture-1/           # Java basics, first programs, collections intro
-├── Lecture-2/           # Collections Framework
-├── Lecture-3/           # Recursion & Time Complexity
-└── README.md            # Project description (this file)
+├── Lecture-1/ # Java Setup, Collections
+├── Lecture-3/ # Recursion Basics
+├── Lecture-4/ # Interview Problems
+├── Lecture-5/ # More Interview Problems
+├── Lecture-6/ # Queue Implementation
+├── Lecture-7/ # BST (Deletion, Height etc.)
+├── Lecture-8/ # Graph Basics
+│
+├── CodingChallenges/ # CodeChallenge L-9
+├── GeeksforGeeks/ # Added Solutions
+├── LeetCodeProblems/ # Practiced LeetCode DSA
+│
+└── README.md # Project Overview
 
 
 ---
