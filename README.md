@@ -8,26 +8,25 @@
 This repository contains all my code, notes, and challenges from the **Java DSA Live Cohort**.  
 **Goal:** Build problem-solving skills, strengthen Java fundamentals, and crack top tech interviews.
 
----
+```
 
 ## 📂 Folder Structure
 DSA-JAVA-Challenge/
-│── Lecture-1/ # Java Setup, Collections
-│── Lecture-2/ # Arrays & Strings
-│── Lecture-3/ # Recursion Basics
-│── Lecture-4/ # Linked List
-│── Lecture-5/ # More Interview Problems
-│── Lecture-6/ # Queue Implementation
-│── Lecture-7/ # BST (Deletion, Traversal)
-│── Lecture-8/ # Graph Basics
+├── Lecture-1/ # Java Setup, Collections
+├── Lecture-2/ # Arrays & Strings
+├── Lecture-3/ # Recursion Basics
+├── Lecture-4/ # Linked List
+├── Lecture-5/ # Stack
+├── Lecture-6/ # Queue Implementation
+├── Lecture-7/ # BST (Deletion, Traversal)
+├── Lecture-8/ # Graphs
 │
-│── CodingChallenges/ # CodeChallenge L-9
-│── GeeksforGeeks/ # Added Solutions
-│── Practiced LeetCode DSA
-│── README.md # Project Overview
+├── CodingChallenges/ # CodeChallenge L-9
+├── GeeksforGeeks/ # Added Solutions
+├── Practiced LeetCode DSA
+└── README.md # Project Overview
 
-
----
+```
 
 ## 📊 Progress Tracker  
 
