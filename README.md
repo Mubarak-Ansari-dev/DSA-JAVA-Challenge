@@ -95,6 +95,8 @@ Week 7: Trees ✅
 
 Week 8: Graphs ✅
 
+Week 9: Algorithm Start
+
 ```
 💡 Why This Repo Exists
 This is my accountability journal for learning Java DSA consistently.
